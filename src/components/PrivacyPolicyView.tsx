@@ -490,16 +490,16 @@ export const PrivacyPolicyView: React.FC = () => {
             </div>
 
             <p className="text-sm sm:text-base text-neutral-200 leading-relaxed">
-              If you have questions about this policy, contact us at: <a href="mailto:canrot@gmail.com" className="text-pink-400 hover:underline font-semibold">[ canrot@gmail.com ]</a>
+              If you have questions about this policy, contact us at: <a href="mailto:contacts@tiyazo.com" className="text-pink-400 hover:underline font-semibold">[ contacts@tiyazo.com ]</a>
             </p>
 
             <div className="pt-2">
               <a
-                href="mailto:canrot@gmail.com"
+                href="mailto:contacts@tiyazo.com"
                 className="inline-flex items-center gap-2 rounded-xl bg-pink-500 px-5 py-2.5 text-xs font-bold text-neutral-950 hover:bg-pink-400 transition-colors"
               >
                 <Mail className="h-4 w-4" />
-                <span>Email: canrot@gmail.com</span>
+                <span>Email: contacts@tiyazo.com</span>
               </a>
             </div>
           </article>

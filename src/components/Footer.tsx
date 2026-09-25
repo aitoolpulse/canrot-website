@@ -26,8 +26,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </p>
             <div className="flex items-center gap-2 text-neutral-300">
               <Mail className="h-3.5 w-3.5 text-pink-400" />
-              <a href="mailto:canrot@gmail.com" className="hover:text-pink-400 font-mono transition-colors">
-                canrot@gmail.com
+              <a href="mailto:contacts@tiyazo.com" className="hover:text-pink-400 font-mono transition-colors">
+                contacts@tiyazo.com
               </a>
             </div>
           </div>
@@ -100,8 +100,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
           <p className="text-neutral-500 flex items-center gap-1">
             <span>Contact: </span>
-            <a href="mailto:canrot@gmail.com" className="text-neutral-400 hover:text-pink-400 underline">
-              canrot@gmail.com
+            <a href="mailto:contacts@tiyazo.com" className="text-neutral-400 hover:text-pink-400 underline">
+              contacts@tiyazo.com
             </a>
           </p>
         </div>

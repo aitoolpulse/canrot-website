@@ -37,7 +37,7 @@ const FAQS: FAQItem[] = [
     category: 'Permissions',
     question: 'How do I submit crash logs if an export fails?',
     answer:
-      'If an unexpected crash or export failure occurs, a technical text report (app version, Android OS version, device model, and FFmpeg error log) is generated locally. It is NEVER sent automatically; you have full control to email it to canrot@gmail.com if you want us to investigate.',
+      'If an unexpected crash or export failure occurs, a technical text report (app version, Android OS version, device model, and FFmpeg error log) is generated locally. It is NEVER sent automatically; you have full control to email it to contacts@tiyazo.com if you want us to investigate.',
   },
 ];
 

@@ -150,7 +150,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={() => handleNav('home', 'contact')}
               className="text-left py-2 font-medium text-neutral-300 hover:text-pink-400"
             >
-              Support (canrot@gmail.com)
+              Support (contacts@tiyazo.com)
             </button>
           </div>
         </div>

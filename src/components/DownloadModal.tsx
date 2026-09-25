@@ -22,7 +22,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({
     // Create a mock download trigger of release notes or APK stub
     const element = document.createElement('a');
     const file = new Blob([
-      `Canrot Video Editor v2.4.0\nPackage: com.canrot.videoeditor\nArchitecture: ARM64-v8a / armeabi-v7a\nMinimum Android: Android 8.0 (API 26)\nBuilt with: FFmpeg, on-device technology, Google ML Kit, Google AdMob\nPrivacy: 100% Local-First\nSupport: canrot@gmail.com`
+      `Canrot Video Editor v2.4.0\nPackage: com.canrot.videoeditor\nArchitecture: ARM64-v8a / armeabi-v7a\nMinimum Android: Android 8.0 (API 26)\nBuilt with: FFmpeg, on-device technology, Google ML Kit, Google AdMob\nPrivacy: 100% Local-First\nSupport: contacts@tiyazo.com`
     ], { type: 'text/plain' });
     element.href = URL.createObjectURL(file);
     element.download = 'Canrot_v2.4.0_Release_Info.txt';
