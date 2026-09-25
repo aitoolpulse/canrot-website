@@ -1,0 +1,6 @@
+{
+  "name": "Canrot Video Editor",
+  "description": "Official website and privacy policy for Canrot Video Editor for Android. Fast, local-first video editing with on-device AI auto-captions, auto-reframe, studio voice-over, and native FFmpeg rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
