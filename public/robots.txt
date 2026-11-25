@@ -6,3 +6,5 @@ Allow: /
 
 User-agent: AdsBot-Google
 Allow: /
+
+Sitemap: https://tiyazo.com/sitemap.xml

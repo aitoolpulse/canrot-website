@@ -53,13 +53,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-4 pt-2">
-              <button
-                onClick={onOpenDownload}
+              <a
+                href="https://play.google.com/store/apps/details?id=com.canrot.android"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2.5 rounded-xl bg-pink-500 px-6 py-3.5 text-sm font-bold text-neutral-950 shadow-lg shadow-pink-500/20 transition-all hover:bg-pink-400 hover:shadow-pink-500/30 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-400"
               >
                 <Download className="h-4 w-4" />
                 <span>Get Canrot for Android</span>
-              </button>
+              </a>
 
               <button
                 onClick={onNavigateToPrivacy}

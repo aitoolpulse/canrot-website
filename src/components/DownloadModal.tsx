@@ -22,7 +22,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({
     // Create a mock download trigger of release notes or APK stub
     const element = document.createElement('a');
     const file = new Blob([
-      `Canrot Video Editor v2.4.0\nPackage: com.canrot.videoeditor\nArchitecture: ARM64-v8a / armeabi-v7a\nMinimum Android: Android 8.0 (API 26)\nBuilt with: FFmpeg, on-device technology, Google ML Kit, Google AdMob\nPrivacy: 100% Local-First\nSupport: contacts@tiyazo.com`
+      `Canrot Video Editor v2.4.0\nPackage: com.canrot.android\nGoogle Play: https://play.google.com/store/apps/details?id=com.canrot.android\nArchitecture: ARM64-v8a / armeabi-v7a\nMinimum Android: Android 8.0 (API 26)\nBuilt with: FFmpeg, on-device technology, Google ML Kit, Google AdMob\nPrivacy: 100% Local-First\nSupport: contacts@tiyazo.com`
     ], { type: 'text/plain' });
     element.href = URL.createObjectURL(file);
     element.download = 'Canrot_v2.4.0_Release_Info.txt';
@@ -67,9 +67,9 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({
           <div className="space-y-3 pt-2">
             {/* Google Play Option */}
             <a
-              href="https://play.google.com/store/apps"
+              href="https://play.google.com/store/apps/details?id=com.canrot.android"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="flex items-center justify-between rounded-xl border border-neutral-800 bg-neutral-900/90 p-4 transition-all hover:border-neutral-700 hover:bg-neutral-800 group"
             >
               <div className="flex items-center gap-3">
